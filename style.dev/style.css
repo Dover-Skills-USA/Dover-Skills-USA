@@ -455,7 +455,7 @@ footer {
   #programs {
     align-items: flex-start;
     padding: 24px;
-    gap: 64px;
+    gap: 63px;
   
     &>div {
       gap: 24px;
