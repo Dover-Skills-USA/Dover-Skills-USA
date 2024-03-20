@@ -433,6 +433,10 @@ footer {
 
 /********************************************** Screen Sizes **********************************************/
 @media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
   header {
     display: flex;
     padding-inline: 24px;
@@ -468,14 +472,18 @@ footer {
       flex-direction: column;
       width: 100%;
 
+      &:nth-of-type(1) {
+        margin-top: -48px;
+      }
+
       &>.img {
-        order: 1;
+        order: -1;
       }
     }
   }
 
   #hero {
-    padding: 24px;
+    padding-inline: 24px;
   }
 
   #instructors-link {
@@ -483,6 +491,16 @@ footer {
   
     &>div {
       gap: 16px;
+      width: 100%;
+    }
+  }
+
+  footer {
+    padding: 24px;
+    flex-wrap: wrap;
+    gap: 24px;
+  
+    &>div {
       width: 100%;
     }
   }
