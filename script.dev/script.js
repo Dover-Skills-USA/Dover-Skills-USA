@@ -25,14 +25,14 @@ menuBtn.addEventListener('click', () => {
 });
 
 
-// Links ///////////////////////////////////////////////////////////////////////
-const links = document.querySelectorAll('a');
+// // Links ///////////////////////////////////////////////////////////////////////
+// const links = document.querySelectorAll('a');
 
-links.forEach(link => {
-    let href = link.getAttribute('href');
-    href = '/Dover-Skills-USA' + href;
-    link.setAttribute('href', href);
-});
+// links.forEach(link => {
+//     let href = link.getAttribute('href');
+//     href = '/Dover-Skills-USA' + href;
+//     link.setAttribute('href', href);
+// });
 
 
 
