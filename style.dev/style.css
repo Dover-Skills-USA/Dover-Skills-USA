@@ -9,6 +9,7 @@ html {
   height: 100%;
   width: 100%;
   background: url('/Dover-Skills-USA/assets.dev/space_bg.webp') var(--color-space) no-repeat center center fixed;
+  background-position: top;
   font: 18px arial, helvetica, sans-serif;
 
   &.inactive {
@@ -98,6 +99,8 @@ img {
   background: var(--color-bg);
   border-radius: 1000px;
   transition: background 0.1s ease-in-out;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 
   &:hover {
     background-color: var(--color-grey);
@@ -110,6 +113,8 @@ img {
   border-radius: 0.5em;
   width: fit-content;
   transition: all 0.1s ease-in-out;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 
   &:hover {
     background: var(--color-bg);
@@ -462,7 +467,15 @@ footer {
       gap: 24px;
       flex-direction: column;
       width: 100%;
+
+      &>.img {
+        order: 1;
+      }
     }
+  }
+
+  #hero {
+    padding: 24px;
   }
 
   #instructors-link {
