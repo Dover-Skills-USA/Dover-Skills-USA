@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" fetchpriority>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DASD Skills USA</title>
+  <meta name="description"
+    content="Learn more about the Skills USA programs that Dover Area High School offers students!">
+  <link href="/style.dev/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preload" href="/assets.dev/space_bg.webp" as="image">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="/" aria-label="To Home Page">
+        <img src="/assets.dev/skills_logo@3x.webp" alt="DASD Skills USA">
+      </a>
+      <a href="#main" class="sr-only">To Main Content</a>
+    </div>
+    <nav class="large-nav">
+      <button class="nav-btn" onmouseover="nav_hover()" onmouseleave="nav_leave()">Programs</button>
+      <div class="wrapper" onmouseover="nav_hover()" onmouseleave="nav_leave()">
+        <div class="nav-dropdown">
+          <img src="/assets.dev/chart.svg" alt="Programs Graphic">
+          <hr>
+          <div>
+            <a href="/Programs/Commercial_&_Advertising_Art/" class="secondary-btn">Commercial & Advertising Art</a>
+            <a href="/Programs/Engineering/" class="secondary-btn">Engineering</a>
+            <a href="/Programs/Marketing/" class="secondary-btn">Marketing</a>
+          </div>
+        </div>
+      </div>
+      <a href="/Instructors/" class="nav-btn no-drop">Instructors</a>
+      <a href="/Social_Media/" class="nav-btn no-drop">Social Media</a>
+    </nav>
+    <button id="menu-btn">
+      <i class="material-icons">menu</i>
+    </button>
+    <nav class="small-nav">
+      <div>
+        <h2>Programs</h2>
+        <a href="/Programs/Commercial_&_Advertising_Art/" class="secondary-btn">Commercial & Advertising Art</a>
+        <a href="/Programs/Engineering/" class="secondary-btn">Engineering</a>
+        <a href="/Programs/Marketing/" class="secondary-btn">Marketing</a>
+      </div>
+      <div>
+        <h2>Information</h2>
+        <a href="/Instructors/" class="secondary-btn">Instructors</a>
+        <a href="/Social_Media/" class="secondary-btn">Social Media</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="content">
+    <section id="video">
+      <video src="/assets.dev/videos/com-ad-art.mp4" controls></video>
+    </section>
+    <section id="details">
+
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h2>Mission</h2>
+      <p>Our programs seek to prepare students for challenging yet rewarding careers in fields that are not so ordinary.
+        These careers can set them up for other opportunities outside of their respective fields as well. Even if the
+        students do not find a job in these fields, the skills aquired during these programs are benefitial in many
+        other ways.</p>
+    </div>
+    <div>
+      <h2>Programs</h2>
+      <a href="/Programs/Commercial_&_Advertising_Art/" class="secondary-btn">Commercial & Advertising Art</a>
+      <a href="/Programs/Engineering/" class="secondary-btn">Engineering</a>
+      <a href="/Programs/Marketing/" class="secondary-btn">Marketing</a>
+    </div>
+    <div>
+      <h2>Pages</h2>
+      <a href="/Instructors/" class="secondary-btn">Instructors</a>
+      <a href="/Social_Media/" class="secondary-btn">Social Media</a>
+    </div>
+    <div>
+      <h2>Information</h2>
+      <a href="https://www.doversd.org/schools/high-school/" class="secondary-btn" target="_blank">Dover Area High
+        School Website</a>
+      <a href="https://www.google.com/maps/place/4500+Intermediate+Ave,+Dover,+PA+17315/@39.9989308,-76.8605723,17z/data=!3m1!4b1!4m6!3m5!1s0x89c8f31b064006f1:0x18afbf5605ddb1b0!8m2!3d39.9989267!4d-76.8579974!16s%2Fg%2F11gmft7n_x?entry=ttu"
+        target="_blank" class="info">
+        <i class="material-icons">business</i>
+        4500 Intermediate Ave.
+        <br>
+        Dover, PA 17315
+      </a>
+      <a href="tel:7172928066" class="info">
+        <i class="material-icons">call</i>
+        717-292-8066
+      </a>
+    </div>
+  </footer>
+  <script src="/script.dev/script.js"></script>
+</body>
+
+</html>
