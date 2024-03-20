@@ -111,14 +111,14 @@ img {
   display: flex;
   padding: 0.5em;
   border-radius: 0.5em;
-  width: fit-content;
+  width: max-content;
   transition: all 0.1s ease-in-out;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-
+  
   &:hover {
     background: var(--color-bg);
     color: var(--color-fore);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
   }
 }
 
