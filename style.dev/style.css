@@ -499,6 +499,7 @@ footer {
     padding: 24px;
     flex-wrap: wrap;
     gap: 24px;
+    padding-bottom: 48px;
   
     &>div {
       width: 100%;
