@@ -453,11 +453,22 @@ footer {
   }
 
   #programs {
+    align-items: flex-start;
+    padding: 24px;
+    gap: 64px;
+  
+    &>div {
+      gap: 24px;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  #instructors-link {
     padding: 24px;
   
     &>div {
-      gap: 32px;
-      flex-direction: column;
+      gap: 16px;
       width: 100%;
     }
   }
