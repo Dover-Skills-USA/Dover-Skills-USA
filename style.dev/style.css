@@ -8,7 +8,7 @@
 html {
   height: 100%;
   width: 100%;
-  background: url('./assets.dev/space_bg.webp') var(--color-space) no-repeat center center fixed;
+  background: url('../assets.dev/space_bg.webp') var(--color-space) no-repeat center center fixed;
   font: 18px arial, helvetica, sans-serif;
 
   &.inactive {
@@ -180,7 +180,7 @@ header {
         content: '';
         width: 20px;
         height: 20px;
-        background: url("./assets.dev/cheveron.svg") center no-repeat;
+        background: url("../assets.dev/cheveron.svg") center no-repeat;
         transition: all 0.2s easet-in-out;
         transform: rotate(0deg);
       }
