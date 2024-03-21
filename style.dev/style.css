@@ -378,6 +378,26 @@ header {
 
 
 
+/********************************************** Program Pages **********************************************/
+#video {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding: 16px;
+  background: var(--color-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 2.777rem;
+
+  &>video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: calc(2.777rem - 16px);
+  }
+}
+
+
+
 /********************************************** Footer **********************************************/
 footer {
   display: flex;
