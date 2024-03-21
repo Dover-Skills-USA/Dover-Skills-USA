@@ -379,6 +379,13 @@ header {
 
 
 /********************************************** Program Pages **********************************************/
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 #video {
   display: flex;
   width: 100%;
@@ -400,8 +407,14 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
   margin-top: 32px;
+
+  &>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 
@@ -463,6 +476,10 @@ footer {
 @media screen and (max-width: 768px) {
   html {
     font-size: 16px;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 
   header {
