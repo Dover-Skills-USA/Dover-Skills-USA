@@ -10,11 +10,13 @@ html {
   width: 100%;
   background: url('/Dover-Skills-USA/assets.dev/space_bg.webp') var(--color-space) no-repeat center center fixed;
   background-position: top;
+  background-attachment: fixed;
   font: 18px arial, helvetica, sans-serif;
 
   &.inactive {
     overflow: hidden;
     touch-action: none;
+    pointer-events: none;
   }
 }
 
