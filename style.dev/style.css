@@ -42,6 +42,17 @@ input {
   font: 1rem/1.5 arial;
 }
 
+li {
+  overflow-x: visible;
+  padding-left: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
