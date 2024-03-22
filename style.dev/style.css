@@ -453,6 +453,7 @@ header {
       aspect-ratio: 1/1;
       object-fit: cover;
       border-radius: 1000px;
+      background: var(--color-bg);
     }
   }
 }
@@ -471,12 +472,13 @@ header {
   &>.classes>.classes-content {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 
     &>div {
       width: 50%;
       display: flex;
       flex-direction: column;
-      gap: 0;
+      gap: 8px;
 
       &>ul {
         display: flex;
