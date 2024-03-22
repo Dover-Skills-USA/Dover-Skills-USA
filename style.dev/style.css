@@ -444,11 +444,12 @@ header {
   &>div {
     display: flex;
     flex-direction: column;
+    width: 15%;
     gap: 16px;
     align-items: center;
     
     &>img {
-      width: 10%;
+      width: 100%;
       aspect-ratio: 1/1;
       object-fit: cover;
       border-radius: 1000px;
