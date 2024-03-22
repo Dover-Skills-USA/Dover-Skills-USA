@@ -404,6 +404,11 @@ header {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    
+    &>p,
+    &>ul {
+      color: var(--color-grey);
+    }
   }
 }
 
@@ -467,12 +472,17 @@ header {
     display: flex;
     flex-direction: column;
     gap: 8px;
+
+    &>p {
+      color: var(--color-grey);
+    }
   }
 
   &>.classes>.classes-content {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    color: var(--color-grey);
 
     &>div {
       width: 50%;
