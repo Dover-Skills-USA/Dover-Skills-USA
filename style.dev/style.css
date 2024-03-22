@@ -445,7 +445,6 @@ header {
   align-items: center;
   justify-content: center;
   gap: 32px;
-  padding: 48px 0px;
   
   &>div {
     display: flex;
