@@ -54,6 +54,7 @@ ul {
   flex-direction: column;
   gap: 16px;
   padding-inline-start: 40px;
+  color: inherit;
 }
 
 a {
