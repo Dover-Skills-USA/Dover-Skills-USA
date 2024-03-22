@@ -46,6 +46,7 @@ input {
 
 li {
   overflow-x: visible;
+  color: inherit;
 }
 
 ul {
@@ -481,7 +482,7 @@ header {
   &>.classes>.classes-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 24px;
     color: var(--color-grey);
 
     &>div {
