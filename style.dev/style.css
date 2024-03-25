@@ -344,7 +344,7 @@ header {
   gap: 32px;
   flex-direction: column;
   width: 100%;
-  padding: 15%;
+  padding: 48px;
   align-items: center;
 
   &>div {
