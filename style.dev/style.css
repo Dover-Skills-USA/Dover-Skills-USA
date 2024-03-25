@@ -194,12 +194,13 @@ header {
       height: 100%;
       padding-inline: 1em;
       pointer-events: all;
+      transition: opacity 0.2s ease-in-out;
 
       &.no-drop {
         display: flex;
 
         &:hover {
-          color: var(--color-grey);
+          opacity: 0.8;
         }
       
         &::after {
