@@ -647,7 +647,7 @@ footer {
       column-gap: 24px;
   
       &>div {
-        width: calc(50% - 24px);
+        width: 100%;
       }
     }
   }
