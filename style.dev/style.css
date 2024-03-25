@@ -195,10 +195,18 @@ header {
       padding-inline: 1em;
       pointer-events: all;
 
-      &.no-drop::after {
-        display: none;
-        width: 0;
-        height: 0;
+      &.no-drop {
+        display: flex;
+
+        &:hover {
+          color: var(--color-grey);
+        }
+      
+        &::after {
+          display: none;
+          width: 0;
+          height: 0;
+        }
       }
 
       &::after {
