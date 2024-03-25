@@ -344,13 +344,13 @@ header {
   gap: 32px;
   flex-direction: column;
   width: 100%;
-  padding: 48px;
+  padding: 15%;
   align-items: center;
 
   &>div {
     display: flex;
     gap: 32px;
-    width: 75%;
+    width: 100%;
     align-items: center;
 
     &>div.text {
@@ -570,7 +570,7 @@ footer {
 
 
 /********************************************** Screen Sizes **********************************************/
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   html {
     font-size: 16px;
   }
