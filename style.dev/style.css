@@ -92,6 +92,10 @@ img {
   }
 }
 
+section {
+  width: 100%;
+}
+
 
 
 /********************************************** Classes **********************************************/
@@ -557,7 +561,7 @@ footer {
 
 
 /********************************************** Screen Sizes **********************************************/
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   html {
     font-size: 16px;
   }
@@ -625,6 +629,14 @@ footer {
     &>div {
       gap: 16px;
       width: 100%;
+    }
+  }
+
+  #instructor-images {
+    gap: 24px;
+    
+    &>div {
+      width: 25%;
     }
   }
 
