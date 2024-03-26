@@ -516,6 +516,28 @@ header {
 
 
 
+/********************************************** Social Media **********************************************/
+#social-media-link {
+  display: flex;
+  padding-block: 48px;
+  align-items: center;
+  justify-content: center;
+
+  &>div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 60%;
+    border-radius: 2.777rem;
+    padding: 32px;
+    background: var(--color-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
+
+
+
 /********************************************** Footer **********************************************/
 footer {
   display: flex;
@@ -658,6 +680,15 @@ footer {
       &>div {
         width: 100%;
       }
+    }
+  }
+
+  #social-media-link {
+    display: flex;
+    padding-block: 24px;
+  
+    &>div {
+      width: 100%;
     }
   }
 
