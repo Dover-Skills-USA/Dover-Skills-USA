@@ -533,7 +533,7 @@ header {
 
     &>p>span {
       width: 50%;
-      aspect-ratio: 1/1;
+      aspect-ratio: 16/9;
       padding: 16px;
       border-radius: 2.777rem;
       background: var(--color-bg);
@@ -542,7 +542,7 @@ header {
 
       &>img {
         width: 100%;
-        aspect-ratio: 1/1;
+        aspect-ratio: 16/9;
         object-fit: cover;
         object-position: center;
         border-radius: calc(2.777rem - 16px);
@@ -661,6 +661,10 @@ footer {
     &>nav.small-nav {
       pointer-events: all;
     }
+  }
+
+  .float {
+    width: 100%;
   }
 
   #programs {
