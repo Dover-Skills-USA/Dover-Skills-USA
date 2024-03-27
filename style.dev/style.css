@@ -434,30 +434,30 @@ header {
     &>ul {
       color: var(--color-grey);
     }
-  }
-}
 
-.merchandise {
-  display: flex;
-
-  &>div
-    display: flex;
-    gap: 16px;
-  
-    &>.img {
-      width: calc(25% - 16px);
+    &.merchandise {
       display: flex;
-      padding: 16px;
-      border-radius: 2.777rem;
-      background: var(--color-bg);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-
-      &>img {
-        width: 100%;
-        aspect-ratio: 9/16;
-        object-fit: cover;
-        border-radius: calc(2.777rem - 16px);
+    
+      &>div {
+        display: flex;
+        gap: 16px;
+      
+        &>.img {
+          width: calc(25% - 16px);
+          display: flex;
+          padding: 16px;
+          border-radius: 2.777rem;
+          background: var(--color-bg);
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
+    
+          &>img {
+            width: 100%;
+            aspect-ratio: 9/16;
+            object-fit: cover;
+            border-radius: calc(2.777rem - 16px);
+          }
+        }
       }
     }
   }
