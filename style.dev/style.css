@@ -531,21 +531,25 @@ header {
     flex-direction: column;
     gap: 8px;
 
-    &>p>span {
-      width: 50%;
-      aspect-ratio: 16/9;
-      padding: 16px;
-      border-radius: 2.777rem;
-      background: var(--color-bg);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-
-      &>img {
-        width: 100%;
+    &>p {
+      color: var(--color-grey);
+      
+      &>span {
+        width: 50%;
         aspect-ratio: 16/9;
-        object-fit: cover;
-        object-position: center;
-        border-radius: calc(2.777rem - 16px);
+        padding: 16px;
+        border-radius: 2.777rem;
+        background: var(--color-bg);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+  
+        &>img {
+          width: 100%;
+          aspect-ratio: 16/9;
+          object-fit: cover;
+          object-position: center;
+          border-radius: calc(2.777rem - 16px);
+        }
       }
     }
   }
