@@ -734,6 +734,7 @@ footer {
       
         &>div {
           gap: 8px;
+          flex-wrap: wrap;
         
           &>.img {
             width: 50%;
