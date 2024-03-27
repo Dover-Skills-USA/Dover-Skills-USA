@@ -737,7 +737,7 @@ footer {
           flex-wrap: wrap;
         
           &>.img {
-            width: 50%;
+            width: calc(50% - 8px);
           }
         }
       }
