@@ -109,6 +109,10 @@ section {
   }
 }
 
+.float {
+  float: right;
+}
+
 
 
 /********************************************** Buttons **********************************************/
@@ -516,7 +520,36 @@ header {
 
 
 
-/********************************************** Social Media **********************************************/
+/********************************************** Board Process **********************************************/
+#progress-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &>p>span {
+      width: 25%;
+      aspect-ratio: 1/1;
+      padding: 16px;
+      border-radius: 2.777rem;
+      background: var(--color-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+
+      &>img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
+
 #social-media-link {
   display: flex;
   padding-block: 48px;
