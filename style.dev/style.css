@@ -112,6 +112,10 @@ section {
 .float {
   float: right;
   margin: 0 0 1rem 1rem;
+
+  &.left {
+    float: left;
+  }
 }
 
 
@@ -743,6 +747,23 @@ footer {
   
     &>div {
       width: 100%;
+    }
+  }
+
+  #progress-text {
+    display: flex;
+  
+    &>div {
+      gap: 8px;
+  
+      &>p {
+        color: var(--color-grey);
+        
+        &>span {
+          width: 100%;
+          margin: 0;
+        }
+      }
     }
   }
 }
