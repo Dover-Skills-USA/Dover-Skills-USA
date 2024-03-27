@@ -532,7 +532,7 @@ header {
     gap: 8px;
 
     &>p>span {
-      width: 25%;
+      width: 50%;
       aspect-ratio: 1/1;
       padding: 16px;
       border-radius: 2.777rem;
@@ -545,6 +545,7 @@ header {
         aspect-ratio: 1/1;
         object-fit: cover;
         object-position: center;
+        border-radius: calc(2.777rem - 16px);
       }
     }
   }
