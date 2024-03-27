@@ -443,7 +443,7 @@ header {
         gap: 16px;
       
         &>.img {
-          width: calc(25% - 16px);
+          width: 25%;
           display: flex;
           padding: 16px;
           border-radius: 2.777rem;
@@ -719,6 +719,26 @@ footer {
 
       &>.img {
         order: -1;
+      }
+    }
+  }
+
+  #details {
+    width: 100%;
+  
+    &>div {
+      display: flex;
+  
+      &.merchandise {
+        display: flex;
+      
+        &>div {
+          gap: 8px;
+        
+          &>.img {
+            width: 50%;
+          }
+        }
       }
     }
   }
