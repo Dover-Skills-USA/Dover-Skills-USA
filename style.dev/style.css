@@ -747,21 +747,21 @@ footer {
     &>div {
       display: flex;
 
+      &>p {
+        color: var(--color-grey);
+
+        &>span {
+          width: 100%;
+          margin: 0 0 1rem 0;
+        }
+      }
+
       &.merchandise {
         display: flex;
 
         &>div {
           gap: 8px;
           flex-wrap: wrap;
-
-          &>p {
-            color: var(--color-grey);
-
-            &>span {
-              width: 100%;
-              margin: 0 0 1rem 0;
-            }
-          }
 
           &>.img {
             width: calc(50% - 8px);
